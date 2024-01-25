@@ -47,7 +47,7 @@ bugreports:
     Yandex Browser Версия 23.11.3.965 (64-bit)
     ОС Windows 10 Version 22H2
   steps-to-reproduce: |
-    1. https://hexlet-products-store.vercel.app/
+    1. https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     2. Нажимаем на кнопку "Категория"
     3. В выпадающем списке выбираем категорию товара
     4. Выбираем чекбокс одного производителя из списка товаров
@@ -55,65 +55,85 @@ bugreports:
     Нажимаем на кнопку "Сбросить фильтры" и видим общий список товаров
   actual-result: |
     Нет кнопки "Сбросить фильтры"
+
 - summary: |
     Чекбокс "в наличии" не сортирует товары по наличию
   environment: |
     Yandex Browser Версия 23.11.3.965 (64-bit)
     ОС Windows 10 Version 22H2
   steps-to-reproduce: |
-    1. https://hexlet-products-store.vercel.app/
+    1. https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     2. Снимаем чекбокс "В наличие"
   expected-result: |
     Выводится список товаров, которых нет в наличие
   actual-result: |
    Выводится только первая страница товаров без сортировки
+
 - summary: |
     При выключении чекбокса "в наличии" не работают фильтр по цене
   environment: |
     Yandex Browser Версия 23.11.3.965 (64-bit)
     ОС Windows 10 Version 22H2
   steps-to-reproduce: |
-    1. https://hexlet-products-store.vercel.app/
+    1. https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     2. Снимаем чекбокс "В наличие"
     3. Вводим в поле сортировки товара по цене диапозон от 100 до 500
   expected-result: |
     Выводится список товаров в диапозоне от 100 до 500
   actual-result: |
    Сортировка товара на странице не происходит
+
 - summary: |
     При выключении чекбокса "в наличии" не работает фильтр по производителю
   environment: |
     Yandex Browser Версия 23.11.3.965 (64-bit)
     ОС Windows 10 Version 22H2
   steps-to-reproduce: |
-    1. https://hexlet-products-store.vercel.app/
+    1. https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     2. Снимаем чекбокс "В наличие"
     3. Включаем чекбокс по Производителю
   expected-result: |
     Выводится список товаров выбранного Производителя
   actual-result: |
    Сортировка товара по производителю не происходит
+
 - summary: |
     При выключении чекбокса "в наличии" не работает поиск товаров
   environment: |
     Yandex Browser Версия 23.11.3.965 (64-bit)
     ОС Windows 10 Version 22H2
   steps-to-reproduce: |
-    1. https://hexlet-products-store.vercel.app/
+    1. https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     2. Снимаем чекбокс "В наличие"
     3. В строке поиска товаров вводим название Производителя
   expected-result: |
     Выводится список товаров совпадающий по названию с введенным в поиске
   actual-result: |
    Сортировка товара по поисковой строке не производится
+
 - summary: |
     В списке товаров между ценой и кнопкой "добавить в корзину" указано количество в наличии товара для заказа без наименования (штук) 
   environment: |
     Yandex Browser Версия 23.11.3.965 (64-bit)
     ОС Windows 10 Version 22H2
   steps-to-reproduce: |
-    1. https://hexlet-products-store.vercel.app/
+    https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
   expected-result: |
      В списке товаров между ценой и кнопкой "добавить в корзину" указано число товара в наличии для заказа в штуках 
   actual-result: |
     В списке товаров между ценой и кнопкой "добавить в корзину" указано количество в наличии товара для заказа без наименования (4.png)
+    
+- summary: |
+    Не сохраняется русский язык интерфейса
+  environment: |
+    Yandex Browser Версия 23.11.3.965 (64-bit)
+    ОС Windows 10 Version 22H2
+  steps-to-reproduce: |
+    1. https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    2. Выбираем язык интерфейса русский
+    3. Переходим в корзину
+    4. Нажимаем кнопку "Магазин"
+  expected-result: |
+    Пользователь видит главную страницу с интерфейсом на русском языке
+  actual-result: |
+    Пользователь видит главную страницу с интерфейсом на английском языке
