@@ -113,4 +113,4 @@
   expected-result: |
     Закрывается модальное окно
   actual-result: |
-    Не закрывается модальное окно
+    Не закрывается модальное окно ( https://github.com/kondratievSE/1/blob/1f20fd27105a96c9b8d3471bbfa0d1c88338025e/8.png )
