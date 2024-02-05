@@ -51,7 +51,7 @@ bugreports:
     Yandex Browser Версия 23.11.3.965 (64-bit)
     ОС Windows 10 Version 22H2
   steps-to-reproduce: |
-    1. https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    1. Открываем главную страницу сайта
     2. Снимаем чекбокс "В наличие"
   expected-result: |
     Выводится список товаров, которых нет в наличие
@@ -114,3 +114,17 @@ bugreports:
     Пользователь видит главную страницу с интерфейсом на русском языке
   actual-result: |
     Пользователь видит главную страницу с интерфейсом на английском языке
+
+- summary: |
+    Едет верстка, если при сортировке на главной странице выводится один товар 
+  environment: |
+    Yandex Browser Версия 23.11.3.965 (64-bit)
+    ОС Windows 10 Version 22H2
+  steps-to-reproduce: |
+    1. Выбираем главную страницу сайта
+    2. Подбираем сортировку, чтобы на главной странице был один товар
+  expected-result: |
+    Пользователь видит главную страницу с товаром
+  actual-result: |
+    Пользователь видит главную страницу с дефектами верстки ( https://github.com/kondratievSE/1/blob/b1b9c08afc2979b9eaff61dd7cd655701741899c/7.png )
+ 
