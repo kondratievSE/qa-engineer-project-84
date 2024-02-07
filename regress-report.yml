@@ -52,7 +52,6 @@ test-cases:
     Проверка возможности перехода на предыдущую страницу каталога товаров
    status: pass
 
-
 bugreports:
 
 - summary: |
@@ -136,5 +135,4 @@ bugreports:
   expected-result: |
     Пользователь видит главную страницу с товаром
   actual-result: |
-    Пользователь видит главную страницу с дефектами верстки ( https://github.com/kondratievSE/1/blob/b1b9c08afc2979b9eaff61dd7cd655701741899c/7.png )
- 
+    Пользователь видит главную страницу с дефектами верстки ( https://github.com/kondratievSE/qa-engineer-project-84/blob/3ebfce0053aa76a9cf531100956bf732b44f6154/Screenshots/7.png )
