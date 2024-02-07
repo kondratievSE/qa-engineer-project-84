@@ -42,6 +42,9 @@ test-cases:
  - summary: |
     Проверка подтверждения оформления заказа при нажатии "Оформить заказ"
    status: pass
+ - summary: |
+    Проверка удаления товара из корзины
+   status: pass
 
 bugreports:
 
