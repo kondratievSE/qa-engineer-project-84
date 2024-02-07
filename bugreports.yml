@@ -103,7 +103,7 @@
     Не закрывается модальное окно ( https://github.com/kondratievSE/qa-engineer-project-84/blob/e337640cfef29b0e4b0a7586c9c143408bc44407/Screenshots/8.png )
 
 - summary: |
-     При оформлении заказа сайт отправляет неправильные атрибуты и индентификатор формы заказа
+     При оформлении заказа сайт некорректно отправляет данные товаров (формы заказа)
   environment: |
     Yandex Browser Версия 23.11.3.965 (64-bit)
     ОС Windows 10 Version 22H2
@@ -112,6 +112,7 @@
     2. Переходим в Корзину
     3. Нажимаем "Оформить заказ"
   expected-result: |
-    Закрывается модальное окно
+    В Devtools видим отправленный запрос с корректными данными товаров (формы заказа)
   actual-result: |
-    Не закрывается модальное окно ( https://github.com/kondratievSE/qa-engineer-project-84/blob/e337640cfef29b0e4b0a7586c9c143408bc44407/Screenshots/8.png )
+    В Devtools видим отправленный запрос с некорректными (failed) атрибутами товаров ( https://github.com/kondratievSE/qa-engineer-project-84/blob/36546833665b77b379c4cf58b803afc4d04db3ce/Screenshots/18.png )
+                                                                                     ( https://github.com/kondratievSE/qa-engineer-project-84/blob/36546833665b77b379c4cf58b803afc4d04db3ce/Screenshots/17.png )
