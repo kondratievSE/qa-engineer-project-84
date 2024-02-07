@@ -79,7 +79,7 @@ bugreports:
   expected-result: |
     Выводится список товаров в диапозоне от 100 до 500
   actual-result: |
-   Сортировка товара на странице не происходит
+   Сортировка товара на странице не происходит ( https://github.com/kondratievSE/qa-engineer-project-84/blob/d7a18c6e471447d081a950359990632fc3373b10/Screenshots/10.png )
 
 - summary: |
     При выключении чекбокса "в наличии" не работает фильтр по производителю
@@ -93,7 +93,7 @@ bugreports:
   expected-result: |
     Выводится список товаров выбранного Производителя
   actual-result: |
-   Сортировка товара по производителю не происходит
+   Сортировка товара по производителю не происходит ( https://github.com/kondratievSE/qa-engineer-project-84/blob/d7a18c6e471447d081a950359990632fc3373b10/Screenshots/11.png )
 
 - summary: |
     При выключении чекбокса "в наличии" не работает поиск товаров
@@ -107,7 +107,7 @@ bugreports:
   expected-result: |
     Выводится список товаров совпадающий по названию с введенным в поиске
   actual-result: |
-   Сортировка товара по поисковой строке не производится
+   Сортировка товара по поисковой строке не производится ( https://github.com/kondratievSE/qa-engineer-project-84/blob/d7a18c6e471447d081a950359990632fc3373b10/Screenshots/15.png )
     
 - summary: |
     Не сохраняется русский язык интерфейса
