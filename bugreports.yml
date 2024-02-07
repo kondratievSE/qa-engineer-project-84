@@ -103,7 +103,7 @@
     Не закрывается модальное окно ( https://github.com/kondratievSE/qa-engineer-project-84/blob/e337640cfef29b0e4b0a7586c9c143408bc44407/Screenshots/8.png )
 
 - summary: |
-     При оформлении заказа сайт некорректно отправляет данные товаров (формы заказа)
+     Ошибка отправки данных (формы заказа) при оформлении заказа
   environment: |
     Yandex Browser Версия 23.11.3.965 (64-bit)
     ОС Windows 10 Version 22H2
