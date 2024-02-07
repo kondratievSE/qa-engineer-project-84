@@ -12,10 +12,6 @@
   status: pass
 
 - summary: |
-    Проверка добавления товаров в корзину
-  status: pass
-
-- summary: |
     Проверка фильтрации товара по производителю
   status: pass
     
