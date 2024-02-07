@@ -33,8 +33,8 @@
 
 - summary: |
     Проверка работы сайта на мобильном устройстве
-  status: fail # https://github.com/kondratievSE/1/blob/1f20fd27105a96c9b8d3471bbfa0d1c88338025e/5.png #
-               # https://github.com/kondratievSE/1/blob/1f20fd27105a96c9b8d3471bbfa0d1c88338025e/6.png #
+  status: fail # https://github.com/kondratievSE/qa-engineer-project-84/blob/7c957e6933f93352f2d0bb349ee1a5f3818295c3/Screenshots/5.png #
+               # https://github.com/kondratievSE/qa-engineer-project-84/blob/7c957e6933f93352f2d0bb349ee1a5f3818295c3/Screenshots/6.png #
 
 - summary: |
     Проверка работы сайта на планшете
