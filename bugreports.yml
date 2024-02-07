@@ -114,5 +114,5 @@
   expected-result: |
     В Devtools видим отправленный запрос с корректными данными товаров (формы заказа)
   actual-result: |
-    В Devtools видим отправленный запрос с некорректными (failed) атрибутами товаров ( https://github.com/kondratievSE/qa-engineer-project-84/blob/36546833665b77b379c4cf58b803afc4d04db3ce/Screenshots/18.png )
-                                                                                     ( https://github.com/kondratievSE/qa-engineer-project-84/blob/36546833665b77b379c4cf58b803afc4d04db3ce/Screenshots/17.png )
+    В Devtools не видим отправку запроса с данными заказа (failed) ( https://github.com/kondratievSE/qa-engineer-project-84/blob/36546833665b77b379c4cf58b803afc4d04db3ce/Screenshots/18.png )
+                                                                   ( https://github.com/kondratievSE/qa-engineer-project-84/blob/36546833665b77b379c4cf58b803afc4d04db3ce/Screenshots/17.png )
