@@ -11,7 +11,7 @@
   expected-result: |
     Числа количества товара в корзине расположены в один столбец и выровнены
   actual-result: |
-    Числа количества товара в корзине не выровнены в столбце ( https://github.com/kondratievSE/1/blob/main/1.png )
+    Числа количества товара в корзине не выровнены в столбце ( https://github.com/kondratievSE/qa-engineer-project-84/blob/e337640cfef29b0e4b0a7586c9c143408bc44407/Screenshots/1.png )
 
 - summary: |
     После нажатия на кнопку "Оформить заказ" не происходит очистка корзины
@@ -71,7 +71,7 @@
   expected-result: |
     Все изображения в карточках товаров имеют одинаковое разрешение и размеры
   actual-result: |
-    Изображения некоторых товаров имеет не правильные размеры - растянуто ( https://github.com/kondratievSE/1/blob/1f20fd27105a96c9b8d3471bbfa0d1c88338025e/3.png )
+    Изображения некоторых товаров имеет не правильные размеры - растянуто ( https://github.com/kondratievSE/qa-engineer-project-84/blob/e337640cfef29b0e4b0a7586c9c143408bc44407/Screenshots/3.png )
 
 - summary: |
     Отсутствует изображение Британского флага на кнопке переключения на Английский язык
@@ -84,7 +84,7 @@
   expected-result: |
     В выпадающем меню выбора языка видим две иконки соответствующие языкам
   actual-result: |
-    Отсутствует изображение Британского флага на кнопке переключения на Английский язык ( https://github.com/kondratievSE/1/blob/1f20fd27105a96c9b8d3471bbfa0d1c88338025e/2.png )
+    Отсутствует изображение Британского флага на кнопке переключения на Английский язык ( https://github.com/kondratievSE/qa-engineer-project-84/blob/e337640cfef29b0e4b0a7586c9c143408bc44407/Screenshots/2.png )
 
 - summary: |
      Не работает пиктограмма "Крестик" (закрыть окно) в модальном окне "Успешный заказ товара"
@@ -99,7 +99,7 @@
   expected-result: |
     Закрывается модальное окно
   actual-result: |
-    Не закрывается модальное окно ( https://github.com/kondratievSE/1/blob/1f20fd27105a96c9b8d3471bbfa0d1c88338025e/8.png )
+    Не закрывается модальное окно ( https://github.com/kondratievSE/qa-engineer-project-84/blob/e337640cfef29b0e4b0a7586c9c143408bc44407/Screenshots/8.png )
 
 - summary: |
      При заказе товара пользователь не указывает свои контактные данные для связи и обработки заказа
